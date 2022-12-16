@@ -1,8 +1,12 @@
-import numpy as np
 from threading import Thread
 from typing import List
 
+import numpy as np
+
 """
+    Run this file if you want to get a human-readable output of generated
+    samples.
+    
     NOTE:
     Binomial distribution is a probability distribution used in statistics 
     that summarizes the likelihood that a value will take one of two independent
