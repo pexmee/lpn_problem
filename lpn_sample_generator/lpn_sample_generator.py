@@ -188,5 +188,5 @@ print(f"decision class: {results['decision_class']}")
 print(f"random class: {results['random_class']}")
 print(f"extra class: {results['extra_class']}")
 
-with open("100_000_dim10.json","a") as file_h:
+with open("200_000_dim10.json","a") as file_h:
     json.dump(results,fp=file_h)
